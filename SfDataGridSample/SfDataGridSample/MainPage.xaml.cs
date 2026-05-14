@@ -5,17 +5,9 @@ namespace SfDataGridSample
 {
     public partial class MainPage : ContentPage
     {
-        public OrderInfoRepository? OrderInfo { get; set; }
-
         public MainPage()
         {
             InitializeComponent();
-
-            //BindingContext = new OrderInfoRepository();
-            //var dataGrid = new SfDataGrid();
-            //dataGrid.SetBinding(SfDataGrid.ItemsSourceProperty, new Binding(nameof(OrderInfoRepository.OrderInfoCollection)));
-            //Content = dataGrid;
-
             AddRowStyle();
         }
 
